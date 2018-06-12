@@ -1,0 +1,28 @@
+.redBg {
+    background-color: red;
+    border-radius: 5px;
+    color: white;
+    padding: 5px;
+}
+
+.container {
+  display: flex; 
+}
+
+.conferenceSystemWrapper {
+  flex-grow: 1; 
+}
+
+.conferenceSystem {
+    margin:0 auto;
+    width:500px;
+    height:500px;
+    background-image: url(./img/monitor.svg), none;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.conferenceSystemControl {
+    width:30%;
+}
