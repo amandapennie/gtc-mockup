@@ -5,7 +5,7 @@
   "main": "''",
   "scripts": {
     "build": "webpack --config webpack.production.config.js --progress --profile --colors",
-    "start": "node ./ble/index.js | webpack-dev-server --progress --profile --colors",
+    "start": "webpack-dev-server --progress --profile --colors | node ./ble/index.js ",
     "lint": "eslint --ext js --ext jsx src || exit 0",
     "dev": " webpack-dashboard -- webpack-dev-server --progress --profile --colors"
   },
@@ -15,7 +15,7 @@
   },
   "license": "Private",
   "dependencies": {
-    "bleno": "^0.4.1",
+    "bleno": "^0.5.0",
     "body-parser": "^1.16.0",
     "ejs": "^2.5.5",
     "express": "^4.14.0",

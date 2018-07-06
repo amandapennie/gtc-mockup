@@ -3,7 +3,7 @@ var bleno = require('bleno');
 
 function ConferenceSystemAvailabilityCharacteristic(conferenceSystem, context) {
   bleno.Characteristic.call(this, {
-    uuid: '13333333333333333333333333330002',
+    uuid: '41bb2d1f4e3b47eb8c6c6d651aa361fd',
     properties: ['read'],
     descriptors: [
       new bleno.Descriptor({

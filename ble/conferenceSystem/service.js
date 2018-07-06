@@ -5,7 +5,7 @@ var ConferenceSystemAvailabilityCharacteristic = require('./characteristics/avai
 
 function ConferenceSystemService(conferenceSystem, context) {
     bleno.PrimaryService.call(this, {
-        uuid: '13333333333333333333333333333339',
+        uuid: 'c578000f18f74db7b03b75ef65007548',
         characteristics: [
             new ConferenceSystemAvailabilityCharacteristic(conferenceSystem, context),
         ]
